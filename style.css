@@ -1,4 +1,4 @@
-/* Prince Hubbard | November 21, 2026 | Module 6.3 Assignment: bioSite Development */
+/* Prince Hubbard | November 21, 2026 | Module 7.2 Assignment: bioSite Development and GitHub Pages Deployment */
 :root {
     color-scheme: light;
     --ink: #171717;
@@ -348,10 +348,14 @@ figcaption {
     background: var(--paper);
 }
 
-.photo-card > img {
+.photo-card-figure img {
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
+}
+
+.photo-card-figure figcaption {
+    padding-inline: 1.25rem;
 }
 
 .photo-card-body {
